@@ -79,5 +79,5 @@ public class MainControllerTest {
         mockMvc.perform(delete("/{id}", 1))
                .andExpect(status().isOk())
                .andExpect(content().string("Deleted"));
-    }}
+    }
 }
